@@ -1,3 +1,27 @@
+nft = await ethers.getContractAt("0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512")
+const ethers = require("ethers")
+nft = await ethers.getContractAt("0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512")
+nft = await getContractAt("0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512")
+console.log(nft.address)
+nft = await ethers.getContractFactory("Asset")
+nft = ethers.getContractFactory("Asset")
+let nft = ethers.getContract
+ console.log(await nft.tokenIds())
+console.log(await nft.tokenIds)
+nft.tokenIds()
+console.log(nft)
+console.log(nft
+nft = await ethers.getContractAt("Asset", "0x959922be3caee4b8cd9a407cc3ac1c251c2007b1")
+nft = ethers.getContractAt("Asset", "0x959922be3caee4b8cd9a407cc3ac1c251c2007b1")
+let nft = ethers.getContract
+console.log(nft.tokenIds())
+console.log(nft)
+let nft = ethers.getContractAt("Asset", "0x0DCd1Bf9A1b36cE34237eEaFef220932846BCD82")
+nft = ethers.getContractAt("Asset", "0x0DCd1Bf9A1b36cE34237eEaFef220932846BCD82")
+const nft = ethers.getContractAt("Assed","0x0DCd1Bf9A1b36cE34237eEaFef220932846BCD82")
+const ndt = ethers.getContractAt("Asset", 0x0DCd1Bf9A1b36cE34237eEaFef220932846BCD82)
+const nft = ethers.getContractAt(0x0DCd1Bf9A1b36cE34237eEaFef220932846BCD82)
+const nft = ethers.getContract
 contract
 const contract = await ethers.getContractAt("Asset", "0x5FbDB2315678afecb367f032d93F642f64180aa3")
 const contract = await ethers.getContractAt("AST", "0x5FbDB2315678afecb367f032d93F642f64180aa3")

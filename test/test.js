@@ -53,6 +53,7 @@ describe("Marketplace", function() {
             const tokenURI = await nft.tokenURI(1)
             expect(await nft.balanceOf(address1.address)).to.equal(3)
             const total = await nft.totalSupply()
+            const ids = await nft.tokenIds()
         })
     })
 
