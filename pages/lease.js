@@ -4,7 +4,6 @@ import { DatePicker, ConfigProvider  } from 'antd';
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import dayjs from "dayjs";
-import { ethers } from 'ethers'
 
 const Lease = () => {
 
@@ -33,19 +32,6 @@ const Lease = () => {
             console.log(escrow)
         }
     }
-
-    const nft = useSelector((state) => state.contracts.signedNFT)
-    const checkOwner = async () => {
-        if(nft != null){
-            console.log(nft) 
-            const owner = await nft.ownerOf(2)
-            console.log(owner)
-        }
-    }
-
-    useEffect(() => {
-        checkOwner()
-    }, [nft])
 
     return (
         <div className="flex items-center justify-center font-main">
